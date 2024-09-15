@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Link from './Link';
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
         >
           Learn React
         </a>
+        <div>
+          <Link page="http://www.github.com/patch85">
+            patch85 github profile
+          </Link>
+        </div>
       </header>
     </div>
   );
