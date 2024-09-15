@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Link from './Link';
+import UserRegistrationForm from './UserRegistrationForm';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
             patch85 github profile
           </Link>
         </div>
+
+        <UserRegistrationForm />
       </header>
     </div>
   );
